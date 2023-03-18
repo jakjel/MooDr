@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC6229A29C20B92007D8C30 /* MooDrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6229929C20B92007D8C30 /* MooDrApp.swift */; };
+		CCC6229C29C20B92007D8C30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6229B29C20B92007D8C30 /* ContentView.swift */; };
+		CCC6229E29C20B94007D8C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC6229D29C20B94007D8C30 /* Assets.xcassets */; };
+		CCC622A129C20B94007D8C30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC622A029C20B94007D8C30 /* Preview Assets.xcassets */; };
+		CCC622AB29C20B94007D8C30 /* MooDrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622AA29C20B94007D8C30 /* MooDrTests.swift */; };
+		CCC622B529C20B94007D8C30 /* MooDrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622B429C20B94007D8C30 /* MooDrUITests.swift */; };
+		CCC622B729C20B94007D8C30 /* MooDrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622B629C20B94007D8C30 /* MooDrUITestsLaunchTests.swift */; };
+		CCC622C529C20C2D007D8C30 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622C429C20C2D007D8C30 /* HomePageView.swift */; };
+		CCC622C729C20C63007D8C30 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622C629C20C63007D8C30 /* SwipeView.swift */; };
+		CCC622C929C20C93007D8C30 /* TindMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622C829C20C93007D8C30 /* TindMoodView.swift */; };
+		CCC622CB29C20CAD007D8C30 /* CalendarEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622CA29C20CAD007D8C30 /* CalendarEventsView.swift */; };
+		CCC622CE29C20CDF007D8C30 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622CD29C20CDF007D8C30 /* EventManager.swift */; };
+		CCC622D029C20D29007D8C30 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622CF29C20D29007D8C30 /* HealthStore.swift */; };
+		CCC622D329C20D5D007D8C30 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622D229C20D5D007D8C30 /* Mood.swift */; };
+		CCC622D729C20ED3007D8C30 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622D629C20ED3007D8C30 /* BarChart.swift */; };
+		CCC622DB29C214FF007D8C30 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622DA29C214FF007D8C30 /* LineChart.swift */; };
+		CCC622DD29C21934007D8C30 /* LockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC622DC29C21934007D8C30 /* LockedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC622A729C20B94007D8C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC6228E29C20B92007D8C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC6229529C20B92007D8C30;
+			remoteInfo = MooDr;
+		};
+		CCC622B129C20B94007D8C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC6228E29C20B92007D8C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC6229529C20B92007D8C30;
+			remoteInfo = MooDr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC6229629C20B92007D8C30 /* MooDr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MooDr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC6229929C20B92007D8C30 /* MooDrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooDrApp.swift; sourceTree = "<group>"; };
+		CCC6229B29C20B92007D8C30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCC6229D29C20B94007D8C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCC622A029C20B94007D8C30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCC622A629C20B94007D8C30 /* MooDrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooDrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC622AA29C20B94007D8C30 /* MooDrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooDrTests.swift; sourceTree = "<group>"; };
+		CCC622B029C20B94007D8C30 /* MooDrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooDrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC622B429C20B94007D8C30 /* MooDrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooDrUITests.swift; sourceTree = "<group>"; };
+		CCC622B629C20B94007D8C30 /* MooDrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooDrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCC622C429C20C2D007D8C30 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		CCC622C629C20C63007D8C30 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		CCC622C829C20C93007D8C30 /* TindMoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TindMoodView.swift; sourceTree = "<group>"; };
+		CCC622CA29C20CAD007D8C30 /* CalendarEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventsView.swift; sourceTree = "<group>"; };
+		CCC622CD29C20CDF007D8C30 /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		CCC622CF29C20D29007D8C30 /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		CCC622D229C20D5D007D8C30 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		CCC622D629C20ED3007D8C30 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		CCC622D829C2132C007D8C30 /* MooDr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MooDr.entitlements; sourceTree = "<group>"; };
+		CCC622D929C2142B007D8C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CCC622DA29C214FF007D8C30 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		CCC622DC29C21934007D8C30 /* LockedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC6229329C20B92007D8C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC622A329C20B94007D8C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC622AD29C20B94007D8C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC6228D29C20B92007D8C30 = {
+			isa = PBXGroup;
+			children = (
+				CCC6229829C20B92007D8C30 /* MooDr */,
+				CCC622A929C20B94007D8C30 /* MooDrTests */,
+				CCC622B329C20B94007D8C30 /* MooDrUITests */,
+				CCC6229729C20B92007D8C30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC6229729C20B92007D8C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC6229629C20B92007D8C30 /* MooDr.app */,
+				CCC622A629C20B94007D8C30 /* MooDrTests.xctest */,
+				CCC622B029C20B94007D8C30 /* MooDrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC6229829C20B92007D8C30 /* MooDr */ = {
+			isa = PBXGroup;
+			children = (
+				CCC622D929C2142B007D8C30 /* Info.plist */,
+				CCC622D829C2132C007D8C30 /* MooDr.entitlements */,
+				CCC622D129C20D4B007D8C30 /* Domain */,
+				CCC622CC29C20CCC007D8C30 /* Managers */,
+				CCC622C329C20BF0007D8C30 /* ModelViews */,
+				CCC6229929C20B92007D8C30 /* MooDrApp.swift */,
+				CCC6229D29C20B94007D8C30 /* Assets.xcassets */,
+				CCC6229F29C20B94007D8C30 /* Preview Content */,
+			);
+			path = MooDr;
+			sourceTree = "<group>";
+		};
+		CCC6229F29C20B94007D8C30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCC622A029C20B94007D8C30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCC622A929C20B94007D8C30 /* MooDrTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC622AA29C20B94007D8C30 /* MooDrTests.swift */,
+			);
+			path = MooDrTests;
+			sourceTree = "<group>";
+		};
+		CCC622B329C20B94007D8C30 /* MooDrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC622B429C20B94007D8C30 /* MooDrUITests.swift */,
+				CCC622B629C20B94007D8C30 /* MooDrUITestsLaunchTests.swift */,
+			);
+			path = MooDrUITests;
+			sourceTree = "<group>";
+		};
+		CCC622C329C20BF0007D8C30 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				CCC6229B29C20B92007D8C30 /* ContentView.swift */,
+				CCC622C429C20C2D007D8C30 /* HomePageView.swift */,
+				CCC622C629C20C63007D8C30 /* SwipeView.swift */,
+				CCC622C829C20C93007D8C30 /* TindMoodView.swift */,
+				CCC622CA29C20CAD007D8C30 /* CalendarEventsView.swift */,
+				CCC622D629C20ED3007D8C30 /* BarChart.swift */,
+				CCC622DA29C214FF007D8C30 /* LineChart.swift */,
+				CCC622DC29C21934007D8C30 /* LockedView.swift */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		CCC622CC29C20CCC007D8C30 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CCC622CD29C20CDF007D8C30 /* EventManager.swift */,
+				CCC622CF29C20D29007D8C30 /* HealthStore.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CCC622D129C20D4B007D8C30 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				CCC622D229C20D5D007D8C30 /* Mood.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC6229529C20B92007D8C30 /* MooDr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC622BA29C20B94007D8C30 /* Build configuration list for PBXNativeTarget "MooDr" */;
+			buildPhases = (
+				CCC6229229C20B92007D8C30 /* Sources */,
+				CCC6229329C20B92007D8C30 /* Frameworks */,
+				CCC6229429C20B92007D8C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MooDr;
+			productName = MooDr;
+			productReference = CCC6229629C20B92007D8C30 /* MooDr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC622A529C20B94007D8C30 /* MooDrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC622BD29C20B94007D8C30 /* Build configuration list for PBXNativeTarget "MooDrTests" */;
+			buildPhases = (
+				CCC622A229C20B94007D8C30 /* Sources */,
+				CCC622A329C20B94007D8C30 /* Frameworks */,
+				CCC622A429C20B94007D8C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC622A829C20B94007D8C30 /* PBXTargetDependency */,
+			);
+			name = MooDrTests;
+			productName = MooDrTests;
+			productReference = CCC622A629C20B94007D8C30 /* MooDrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCC622AF29C20B94007D8C30 /* MooDrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC622C029C20B94007D8C30 /* Build configuration list for PBXNativeTarget "MooDrUITests" */;
+			buildPhases = (
+				CCC622AC29C20B94007D8C30 /* Sources */,
+				CCC622AD29C20B94007D8C30 /* Frameworks */,
+				CCC622AE29C20B94007D8C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC622B229C20B94007D8C30 /* PBXTargetDependency */,
+			);
+			name = MooDrUITests;
+			productName = MooDrUITests;
+			productReference = CCC622B029C20B94007D8C30 /* MooDrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC6228E29C20B92007D8C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CCC6229529C20B92007D8C30 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CCC622A529C20B94007D8C30 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CCC6229529C20B92007D8C30;
+					};
+					CCC622AF29C20B94007D8C30 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CCC6229529C20B92007D8C30;
+					};
+				};
+			};
+			buildConfigurationList = CCC6229129C20B92007D8C30 /* Build configuration list for PBXProject "MooDr" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC6228D29C20B92007D8C30;
+			productRefGroup = CCC6229729C20B92007D8C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC6229529C20B92007D8C30 /* MooDr */,
+				CCC622A529C20B94007D8C30 /* MooDrTests */,
+				CCC622AF29C20B94007D8C30 /* MooDrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC6229429C20B92007D8C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC622A129C20B94007D8C30 /* Preview Assets.xcassets in Resources */,
+				CCC6229E29C20B94007D8C30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC622A429C20B94007D8C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC622AE29C20B94007D8C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC6229229C20B92007D8C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC622DD29C21934007D8C30 /* LockedView.swift in Sources */,
+				CCC6229C29C20B92007D8C30 /* ContentView.swift in Sources */,
+				CCC622D329C20D5D007D8C30 /* Mood.swift in Sources */,
+				CCC622CE29C20CDF007D8C30 /* EventManager.swift in Sources */,
+				CCC622CB29C20CAD007D8C30 /* CalendarEventsView.swift in Sources */,
+				CCC622DB29C214FF007D8C30 /* LineChart.swift in Sources */,
+				CCC622C729C20C63007D8C30 /* SwipeView.swift in Sources */,
+				CCC622C529C20C2D007D8C30 /* HomePageView.swift in Sources */,
+				CCC6229A29C20B92007D8C30 /* MooDrApp.swift in Sources */,
+				CCC622C929C20C93007D8C30 /* TindMoodView.swift in Sources */,
+				CCC622D729C20ED3007D8C30 /* BarChart.swift in Sources */,
+				CCC622D029C20D29007D8C30 /* HealthStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC622A229C20B94007D8C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC622AB29C20B94007D8C30 /* MooDrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC622AC29C20B94007D8C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC622B729C20B94007D8C30 /* MooDrUITestsLaunchTests.swift in Sources */,
+				CCC622B529C20B94007D8C30 /* MooDrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC622A829C20B94007D8C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC6229529C20B92007D8C30 /* MooDr */;
+			targetProxy = CCC622A729C20B94007D8C30 /* PBXContainerItemProxy */;
+		};
+		CCC622B229C20B94007D8C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC6229529C20B92007D8C30 /* MooDr */;
+			targetProxy = CCC622B129C20B94007D8C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCC622B829C20B94007D8C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCC622B929C20B94007D8C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC622BB29C20B94007D8C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MooDr/MooDr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MooDr/Preview Content\"";
+				DEVELOPMENT_TEAM = 39A5LDZT9K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MooDr/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs acces to your calendar to fetch its data.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app needs access to your Health app data.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your Health app data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs access to your Health app data.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelinejak.MooDr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCC622BC29C20B94007D8C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MooDr/MooDr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MooDr/Preview Content\"";
+				DEVELOPMENT_TEAM = 39A5LDZT9K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MooDr/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs acces to your calendar to fetch its data.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app needs access to your Health app data.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your Health app data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs access to your Health app data.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelinejak.MooDr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCC622BE29C20B94007D8C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelinejak.MooDrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MooDr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MooDr";
+			};
+			name = Debug;
+		};
+		CCC622BF29C20B94007D8C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelinejak.MooDrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MooDr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MooDr";
+			};
+			name = Release;
+		};
+		CCC622C129C20B94007D8C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelinejak.MooDrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MooDr;
+			};
+			name = Debug;
+		};
+		CCC622C229C20B94007D8C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelinejak.MooDrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MooDr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC6229129C20B92007D8C30 /* Build configuration list for PBXProject "MooDr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC622B829C20B94007D8C30 /* Debug */,
+				CCC622B929C20B94007D8C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC622BA29C20B94007D8C30 /* Build configuration list for PBXNativeTarget "MooDr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC622BB29C20B94007D8C30 /* Debug */,
+				CCC622BC29C20B94007D8C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC622BD29C20B94007D8C30 /* Build configuration list for PBXNativeTarget "MooDrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC622BE29C20B94007D8C30 /* Debug */,
+				CCC622BF29C20B94007D8C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC622C029C20B94007D8C30 /* Build configuration list for PBXNativeTarget "MooDrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC622C129C20B94007D8C30 /* Debug */,
+				CCC622C229C20B94007D8C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC6228E29C20B92007D8C30 /* Project object */;
+}
