@@ -5,8 +5,8 @@
 "Swipe your day" screen is locked except 9pm to 9:30pm when user can swipe. Based on our research people experience six most common moods such as: frustrated, sad, angry, bored, happy, excited</p>
 <p>After swiping, chart of experienced moods is present and you can see it</p>
 <div>
-<img src="https://user-images.githubusercontent.com/107802809/226076947-7e69cd92-c4cf-4500-98d9-b6154f76efeb.png" alt="moodsOverlay" width= "200">
-<img src="https://user-images.githubusercontent.com/107802809/226076986-1c7638fb-7703-4ba7-9bff-d2de168de4fd.png" alt="charts" width= "200">
+<img src="https://user-images.githubusercontent.com/107802809/226076947-7e69cd92-c4cf-4500-98d9-b6154f76efeb.png" alt="moodsOverlay" height= "400">
+<img src="https://user-images.githubusercontent.com/107802809/226076986-1c7638fb-7703-4ba7-9bff-d2de168de4fd.png" alt="charts" height= "400">
 <div>
 <a href="https://youtu.be/iydcZRLMZIY">See short demo🎥</a> 
 
